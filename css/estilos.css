@@ -1,0 +1,162 @@
+
+.navbar-dark{
+    background-color: rgb(2, 94, 115);
+    
+}
+
+.banner {
+    position: relative;
+    height: 300px;
+    background-image: url('../imagenes/banner.webp');
+  }
+
+  .banner .mask {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .banner .text {
+    z-index: 2;
+  }
+  
+  .banner .text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .boton{      
+      outline: none;
+      color: rgb(2, 94, 115);
+      border: none;
+      background-color: #ffffff;
+      font-weight: bold;
+  }
+
+  .thumbnail{
+    /*display: block;*/
+    height: 50%;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 2px;    
+    display: inline-block !important;
+
+  }
+  .imgThumbnail{
+    width: 80%;
+    height: 70%;  
+   
+  }
+  .caption{
+    padding-left: 10px ;
+    padding-right: 10px;
+  }
+
+  .spanVlr{
+    color: rgb(2, 94, 115);
+    font-weight: bold;
+    
+  }
+
+  .btnIniciarSesion {
+    border-radius: 2px;
+    width: 50%;    
+    margin-top: 10%;
+    margin-left: 25%;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.1;
+
+  }
+
+  .btn-primary {
+    border-radius: 2px !important; 
+    width: 100% !important;
+    margin-top: 30% !important;
+  }
+  
+  h5{
+    margin: 0;
+    /*border-bottom: solid thin rgb(2, 94, 115);*/
+    color:  rgb(2, 94, 115);
+}
+
+ .divInicioSesion{
+    height: 50%;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 2px;    
+    display: inline-block !important;
+    width: 30%;
+    margin-left: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .captionPaginaLibro{
+    padding-left: 10px ;
+    padding-right: 10px;
+    vertical-align: top;
+    /*margin-left: -20%;*/
+  }
+   
+  .spanVlrPaginaLibro{
+    color: rgb(2, 94, 115);
+    font-weight: bold;
+    font-size: 15px;
+    /*margin-left: -20%;*/
+    margin-top: 20%;
+    
+  }
+
+  .spanVlrTotalPaginaLibro{
+    color: rgb(2, 94, 115);
+    font-weight: bold;
+    font-size: 25px;
+    /*margin-left: -20%;*/
+    margin-top: 20%;
+    
+  }
+
+  .imgPaginaLibro{
+    width: 100%;
+    height: 80%;  
+   
+  }
+
+  .divTotal{
+    border-top: solid thin rgb(224, 238, 241);
+  }
+  .inputPaginaLibro{
+    width: 40% !important;
+  }
+
+  .btnPaginaLibro {
+    border-radius: 2px;
+    width: 80%;    
+    margin-top: 3%;
+    margin-left: 25%;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.1;
+
+  }
